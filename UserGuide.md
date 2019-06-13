@@ -19,10 +19,10 @@ The list of requirements can be found [here](https://github.com/cs2901/testing-a
 - v1.0: Display the text translated.
 
 ### Bryan Díaz and Juan Manuel Navarro
-- v1.0: 
+- v1.0: Make the test and code quality.
 
 ### Reynaldo Rojas
-- v1.0:
+- v1.0: Coming soon...
 
 ## FAQ
 
