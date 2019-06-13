@@ -1,9 +1,9 @@
  # List of Requirements
 
-Functional:
--
--
+## Functional:
+- 
+- 
 
-Non Functional:
--
--
+## Non Functional:
+- 
+- 
