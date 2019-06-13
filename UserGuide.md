@@ -6,9 +6,32 @@ This programm is a translator of text and words in English to the Spanish langua
 
 ## Requirements
 
-The list of requirements can be found [here](https://github.com/cs2901/testing-ayuda-pe/blob/master/Requirements/Requirements.md)
+The list of requirements can be found [here](https://github.com/cs2901/testing-ayuda-pe/blob/master/Requirements/Requirements.md).
 
 ## Features
+### Joe Acuña
+- 
+-
+
+### Rodrigo Bedoya
+-
+-
+
+### Nicolás Chipana
+-
+-
+
+### Bryan Díaz
+-
+-
+
+### Juan Manuel Navarro
+-
+-
+
+### Reynaldo Rojas
+-
+-
 
 ## FAQ
 
@@ -16,5 +39,6 @@ The list of requirements can be found [here](https://github.com/cs2901/testing-a
 
 ## Appendix
 
-User stories can be found [here](https://github.com/cs2901/testing-ayuda-pe/issues)
-Use cases can be found [here]()
+User stories can be found [here](https://github.com/cs2901/testing-ayuda-pe/issues).
+
+Use cases can be found [here]().
