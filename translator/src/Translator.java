@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.util.Scanner;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -7,8 +8,11 @@ import java.net.URLEncoder;
 
 public class Translator {
     public static void main(String[] args) throws IOException {
-        String text = "Him rendered may attended concerns jennings reserved now. Sympathize did now preference unpleasing mrs few. Mrs for hour game room want are fond dare. For detract charmed add talking age. Shy resolution instrument unreserved man few. She did open find pain some out. If we landlord stanhill mr whatever pleasure supplied concerns so. Exquisite by it admitting cordially september newspaper an. Acceptance middletons am it favourable. It it oh happen lovers afraid. \n";
-        System.out.println("Translated text: " + translate(text));
+        String input;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a string");
+        input = scan.nextLine();
+        System.out.println("Traducción:\n" + translate(input));
     }
 
     private static String translate(String text) throws IOException {
