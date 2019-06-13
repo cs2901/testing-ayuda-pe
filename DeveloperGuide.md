@@ -5,7 +5,7 @@
 ## Features
 
 ## Design
-[imagen](./Diagrams/CompnentDiagram.jpg)
+[imagen](./Diagrams/ComponentDiagram.jpg)
 
 
 ### Architecture
