@@ -30,15 +30,19 @@ How many languages the translator support?
 - It only support English and Spanish.
 
 Can I translate from Spanish to English?
-- No, it can only translate from English to Spanish.
+- Yes the API can translate from every language supported by Google, but this implementation can only translate from English to Spanish.
+
+How many calls can endure the API?
+- 20000 calls per day.
 
 ## Glossary
 
 - User: A person that needs to translate text or words from English to Spanish.
 - Translator: The programm that translates the text and words from English to Spanish.
+- API: Aplication Programming Interface.
 
 ## Appendix
 
 User stories can be found [here](https://github.com/cs2901/testing-ayuda-pe/issues).
 
-Use cases can be found [here]().
+Use cases can be found [here](https://github.com/cs2901/testing-ayuda-pe/blob/master/UseCases.md).
