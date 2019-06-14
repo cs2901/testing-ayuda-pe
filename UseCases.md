@@ -1,5 +1,4 @@
 # Use Cases
-<<<<<<< HEAD
 
 ## UC01 - Text Translation
 **Software:** Translator
@@ -22,5 +21,3 @@
 ## Use Case Diagram
 
 ![diagram](testD.png)
-=======
->>>>>>> 184c712a57c48020906a461b38279c9870623925
