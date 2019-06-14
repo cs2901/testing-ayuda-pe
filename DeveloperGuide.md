@@ -5,12 +5,14 @@
 ## Features
 
 ## Design
-[imagen](./Diagrams/ComponentDiagram.jpg)
+![imagen](./Diagrams/ComponentDiagram.jpg)
 
 
 ### Architecture
 
 ### Use Case Diagram
+
+![img](./testD.png)
 
 ## FAQ
 
