@@ -9,3 +9,9 @@ The list of requirements are [here](https://github.com/cs2901/testing-ayuda-pe/b
 # Use Cases and Use Case Diagram
 
 The Use Cases and the diagrams are [here](https://github.com/cs2901/testing-ayuda-pe/blob/master/UseCases.md).
+
+# Diagrams 
+
+![ComponentDiagram](./Diagrams/ComponentDiagram.jpg)
+
+![ClassDiagram](./Diagrams/Translator.png)
