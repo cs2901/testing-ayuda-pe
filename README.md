@@ -12,6 +12,9 @@ The Use Cases and the diagrams are [here](https://github.com/cs2901/testing-ayud
 
 # Diagrams 
 
+## Component Diagram:
 ![ComponentDiagram](./Diagrams/ComponentDiagram.jpg)
 
+
+## Class Diagram:
 ![ClassDiagram](./Diagrams/Translator.png)
