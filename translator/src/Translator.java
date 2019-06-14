@@ -12,7 +12,7 @@ import java.net.URLEncoder;
 
 public class Translator {
     private static ArrayList<String> languages = new ArrayList<String>(
-            Arrays.asList("es", "de", "it", "ru", "po"));
+            Arrays.asList("es", "de", "it", "ru", "pt"));
     private static ArrayList<String> languagesName = new ArrayList<String>(
             Arrays.asList("Spanish", "German", "Italian", "Russian", "Portuguese"));
 
@@ -42,7 +42,7 @@ public class Translator {
             }
     }
 
-    private static String translate(String text, String lang) throws IOException {
+    public static String translate(String text, String lang) throws IOException {
         String urlStr = "https://script.google.com/macros/s/AKfycbwoewR66GN4nBRmwKUzAz7dlyOZ2MIN9T5pAsUk56puPV7P0xJa/exec" +
                 "?q=" + URLEncoder.encode(text, "UTF-8") +
                 "&target=" + lang +
