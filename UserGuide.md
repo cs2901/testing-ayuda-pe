@@ -45,4 +45,4 @@ How many calls can endure the API?
 
 User stories can be found [here](https://github.com/cs2901/testing-ayuda-pe/issues).
 
-Use cases can be found [here]().
+Use cases can be found [here](https://github.com/cs2901/testing-ayuda-pe/blob/master/UseCases.md).
