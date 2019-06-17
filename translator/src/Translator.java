@@ -18,14 +18,30 @@ public class Translator {
 
 
     public static void main(String[] args) throws IOException {
-            System.out.println("Choose language (type language number):");
+            System.out.println("Choose input language (type language number):");
+            for (int i = 0; i < languages.size(); i++) {
+                String text = (i + 1) + " " + languages.get(i) + " " + languagesName.get(i);
+                System.out.println(text);
+            }
+            int inputLanguage;
+            String input;
+            Scanner scanLang = new Scanner(System.in);
+            input = scanLang.nextLine();
+            inputLanguage = Integer.parseInt(input) - 1;
+            if (inputLanguage >= languages.size()) {
+                System.out.println("Error: no language for inserted number");
+                return;
+            }
+            else {
+                System.out.println("You chose: " + languagesName.get(inputLanguage)+"\n");
+            }
+
+            System.out.println("Choose language to translate to(type language number):");
             for (int i = 0; i < languages.size(); i++) {
                 String text = (i + 1) + " " + languages.get(i) + " " + languagesName.get(i);
                 System.out.println(text);
             }
             int languageSelected;
-            String input;
-            Scanner scanLang = new Scanner(System.in);
             input = scanLang.nextLine();
 
             languageSelected = Integer.parseInt(input) - 1;
@@ -34,19 +50,19 @@ public class Translator {
             }
             else
             {
-                System.out.println("You chose: "+ languagesName.get(languageSelected));
+                System.out.println("You chose: "+ languagesName.get(languageSelected)+"\n");
                 Scanner scan = new Scanner(System.in);
-                System.out.println("Insert text in english:");
+                System.out.println("Insert text in "+ languagesName.get(inputLanguage) + ": ");
                 input = scan.nextLine();
-                System.out.println(languagesName.get(languageSelected) + " translation:\n" + translate(input, languages.get(languageSelected)));
+                System.out.println(languagesName.get(languageSelected) + " translation:\n" + translate(input, languages.get(inputLanguage),languages.get(languageSelected)));
             }
     }
 
-    public static String translate(String text, String lang) throws IOException {
+    private static String translate(String text, String langFrom, String langTo) throws IOException {
         String urlStr = "https://script.google.com/macros/s/AKfycbwoewR66GN4nBRmwKUzAz7dlyOZ2MIN9T5pAsUk56puPV7P0xJa/exec" +
                 "?q=" + URLEncoder.encode(text, "UTF-8") +
-                "&target=" + lang +
-                "&source=" + "en";
+                "&target=" + langTo +
+                "&source=" + langFrom;
         URL url = new URL(urlStr);
         StringBuilder response = new StringBuilder();
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
