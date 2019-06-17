@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This programm is a translator of text and words in English to the Spanish language. This programm is to help people to translate faster and esier than searching in the dictionary itself.
+This programm is a translator of text and words in every language the user want, to the a selected language. This programm is to help people to translate faster and esier than searching in the dictionary itself.
 
 ## Requirements
 
