@@ -18,3 +18,6 @@ The Use Cases and the diagrams are [here](https://github.com/cs2901/testing-ayud
 
 ## Class Diagram:
 ![ClassDiagram](./Diagrams/Translator.png)
+
+## Use Case Diagram:
+![UCD](testD.png)
