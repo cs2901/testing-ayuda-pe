@@ -19,7 +19,7 @@ public class Translator {
     public static void main(String[] args) throws IOException {
             System.out.println("Choose input language (type language number):");
             for (int i = 0; i < languages.size(); i++) {
-                String text = (i + 1) + " " + languages.get(i) + " " + languagesName.get(i);
+                String text = (i + 1) + " " + languagesName.get(i);
                 System.out.println(text);
             }
             int inputLanguage;
@@ -37,7 +37,7 @@ public class Translator {
 
             System.out.println("Choose language to translate to(type language number):");
             for (int i = 0; i < languages.size(); i++) {
-                String text = (i + 1) + " " + languages.get(i) + " " + languagesName.get(i);
+                String text = (i + 1) + " "  + languagesName.get(i);
                 System.out.println(text);
             }
             int languageSelected;

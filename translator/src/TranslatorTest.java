@@ -26,8 +26,8 @@ public class TranslatorTest{
     @Test
     public void testear3() throws Exception {
         Translator mytranslator = new Translator();
-        String result = mytranslator.translate(new String("We want to program a dictionary to translate a English text into a language of our choice, say Italian."),new String("en") ,new String("ru"));
-        if(!result.equals("Мы хотим запрограммировать словарь для перевода английского текста на язык по нашему выбору, например, немецкий.") )
+        String result = mytranslator.translate(new String("hello"),new String("en") ,new String("zh-CN"));
+        if(!result.equals("你好") )
         {
             Assert.fail();
         }
@@ -36,8 +36,18 @@ public class TranslatorTest{
     @Test
     public void testear4() throws Exception {
         Translator mytranslator = new Translator();
-        String result = mytranslator.translate(new String("We want to program a dictionary to translate a English text into a language of our choice, say Spanish."),new String("en") ,new String("es"));
-        if(!result.equals("Queremos programar un diccionario para traducir un texto en inglés a un idioma de nuestra elección, digamos en español.") )
+        String result = mytranslator.translate(new String("แบทแมนเป็นคนไร้เดียงสาและขาดความบริสุทธิ์ คุณจะดึงวิศวกรรมซอฟต์แวร์สำหรับการขาดเรียนทั้งหมดและไม่ทำอะไรเลย"),new String("th") ,new String("ja"));
+        if(!result.equals("バットマンは無実で無実を欠いています。あなたはすべてのクラスの欠如のためにソフトウェア工学を引っ張り、何もしないでしょう。") )
+        {
+            Assert.fail();
+        }
+    }
+
+    @Test
+    public void testear5() throws Exception {
+        Translator mytranslator = new Translator();
+        String result = mytranslator.translate(new String("Ce dictionnaire, sous la forme d'une classe, Dictionnaire, est initialisé avec un fichier mot et nous permet d'interroger la traduction d'un mot anglais."),new String("fr") ,new String("en"));
+        if(!result.equals("This dictionary, in the form of a class, Dictionary, is initialized with a word file and allows us to query the translation of an English word.") )
         {
             Assert.fail();
         }
