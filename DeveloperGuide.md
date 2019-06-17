@@ -32,12 +32,7 @@ This programm is a translator of text and words in every language the user want,
 
 ![cd](./Diagrams/Translator.png)
 
-#### Interaction Between Components
 
 ### Use Case Diagram
 
 ![img](./testD.png)
-
-## FAQ
-
-## Glossary
