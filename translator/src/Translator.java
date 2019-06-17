@@ -12,10 +12,9 @@ import java.net.URLEncoder;
 
 public class Translator {
     private static ArrayList<String> languages = new ArrayList<String>(
-            Arrays.asList("es", "de", "it", "ru", "pt"));
+            Arrays.asList("de","ar","zh-CN","ko","es","fr","el","iw","hi","en","it","ja","la","no","pl","pt","ru","sv","th","tr"));
     private static ArrayList<String> languagesName = new ArrayList<String>(
-            Arrays.asList("Spanish", "German", "Italian", "Russian", "Portuguese"));
-
+            Arrays.asList("German","Arabic","Chinese","Korean","Spanish","French","Greek","Hebrew","Hindi","English","Italian","Japanese","Latin","Norwegian","Polish","Portuguese","Russian","Swedish","Thai","Turkish"));
 
     public static void main(String[] args) throws IOException {
             System.out.println("Choose input language (type language number):");
