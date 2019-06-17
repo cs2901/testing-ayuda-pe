@@ -6,7 +6,7 @@ We want to program a dictionary to translate a English text into a language of o
 
 The list of requirements are [here](https://github.com/cs2901/testing-ayuda-pe/blob/master/Requirements/Requirements.md).
 
-# Use Cases and Use Case Diagram
+# Use Cases
 
 The Use Cases and the diagrams are [here](https://github.com/cs2901/testing-ayuda-pe/blob/master/UseCases.md).
 
